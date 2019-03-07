@@ -1,4 +1,21 @@
 This project was bootstrapped with [Create React DashBoard](https://github.com/facebook/create-react-app).
+# NOTE : Currently its not responsive. CSS changes are WIP.
+
+# Folder Structure & Files :
+ - src
+     - compoents
+        - common : Common components : Header/Footer/Sidebar.
+        - Feed : Feed Components
+        - url-list : URL Input bar
+    - hoc :
+        - Route Hoc : just render route with Layout.
+        - Layout hoc : Layout component.
+    - Actions & Reducers : part of redux. 
+    - Store : Redux Store.
+    - api : API calls 
+    - helpers : Any util functions.
+    
+- public: CRA. index.html etc
 
 ## Available Scripts
 
